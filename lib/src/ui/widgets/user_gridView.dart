@@ -13,7 +13,8 @@ class UserGridView extends StatelessWidget {
         
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           return new InkWell(
-              onTap: () {               
+              onTap: () { 
+                              
               },
               child: new Card(
                 color: Colors.white,
@@ -28,7 +29,7 @@ class UserGridView extends StatelessWidget {
                     children: <Widget>[
                       Icon(Icons.person_pin_outlined,size: 40,color: Colors.deepPurple,),
                       SizedBox(height: 5.0),
-                      Text(user.name, style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold) ,),
+                      Text(user.name, style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.black87),),
                       SizedBox(height: 10.0),
                       
                       Row(
