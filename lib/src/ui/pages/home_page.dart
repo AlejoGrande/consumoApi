@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    appbarTitle = Text("USERS",
+    appbarTitle = Text("Users",
     
         style: TextStyle(fontWeight: FontWeight.bold));
     return Scaffold(
