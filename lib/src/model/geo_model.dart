@@ -16,4 +16,6 @@ class Geo {
         "lat": lat,
         "lng": lng,
     };
+    
+
 }
