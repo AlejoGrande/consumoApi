@@ -8,11 +8,11 @@ class UsersProvider {
     final url = "https://jsonplaceholder.typicode.com/users";
 
     final resp = await http.get(url);
-
+    if (resp.statusCode==200){
     final decodeResp = userFromJson(resp.body);
     return decodeResp;
-    
-
+    }
+    else return null;
   }
 
 }
